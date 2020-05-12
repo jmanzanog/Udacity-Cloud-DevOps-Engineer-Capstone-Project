@@ -29,8 +29,7 @@ pipeline {
 			}
 		}
 
-		stage('Set current
-		 context') {
+		stage('Set current context') {
 			steps {
 				withAWS(region:'sa-east-1', credentials:'1da5412b-e88c-449a-8a60-1505a44f5865') {
 					sh '''
